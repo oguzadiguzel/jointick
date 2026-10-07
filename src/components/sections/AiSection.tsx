@@ -30,8 +30,9 @@ export function AiSection() {
   return (
     <Section id="ai" className="border-y border-line bg-band">
       <SectionHeading eyebrow="AI built into the workflow" title="Intelligence that understands the context of your work.">
-        Jointick uses Claude to reason across project information, meetings, documents, tasks, and internal
-        knowledge. AI is integrated into the workflow instead of existing as a separate chatbot.
+        Claude is built into the product. It reasons across the project, the meeting notes, the documents, and
+        the tasks already in the workspace, then returns summaries, tasks, answers, risks, and next steps. It is
+        not a separate chatbot.
       </SectionHeading>
       <AiWorkflow />
       <ul className="mt-14 grid overflow-hidden rounded-lg border border-line bg-surface sm:grid-cols-2">

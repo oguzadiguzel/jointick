@@ -8,8 +8,8 @@ const steps = [
   },
   {
     number: '02',
-    title: 'Jointick understands the context',
-    body: 'AI analyzes the information surrounding your team’s work.',
+    title: 'Claude reads the context',
+    body: 'Claude uses the project, the meetings, the documents, and the tasks already in the workspace.',
   },
   {
     number: '03',

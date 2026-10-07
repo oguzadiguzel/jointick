@@ -1,7 +1,7 @@
 import { useEffect } from 'react'
 
 const DESCRIPTION =
-  'Jointick is an AI-powered workspace that helps small teams turn projects, meetings, documents, tasks, and internal knowledge into clear actions and decisions.'
+  'Jointick is a workspace for small teams. Claude turns projects, meetings, documents, and tasks into summaries, tasks, risks, and next steps.'
 
 export function usePageMeta(title: string, canonical: string, description = DESCRIPTION) {
   useEffect(() => {

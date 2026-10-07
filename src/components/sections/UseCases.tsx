@@ -28,7 +28,9 @@ const cases = [
 export function UseCases() {
   return (
     <Section id="use-cases" className="border-t border-line">
-      <SectionHeading title="Built for small teams that move fast." />
+      <SectionHeading title="Built for small teams that move fast.">
+        Jointick is the product. These are the teams it is for.
+      </SectionHeading>
       <ul className="mt-14 grid gap-x-10 gap-y-12 sm:grid-cols-2 lg:grid-cols-4">
         {cases.map((item) => (
           <li key={item.title} className="border-t border-line pt-6">

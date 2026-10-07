@@ -16,8 +16,8 @@ export function About() {
               projects, information, and team coordination.
             </p>
             <p>
-              We believe AI should do more than generate text. It should understand the context surrounding work
-              and help teams continuously turn information into useful action.
+              Claude is part of the product. It reads the project, the meeting, and the documents already in the
+              workspace, then turns that context into summaries, tasks, risks, and next steps.
             </p>
           </div>
         </div>

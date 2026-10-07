@@ -11,9 +11,8 @@ export function Hero() {
             Your team’s work, understood by AI.
           </h1>
           <p className="mt-5 max-w-2xl text-base leading-7 text-muted-foreground sm:text-lg sm:leading-8">
-            Jointick brings projects, meetings, documents, tasks, and team knowledge into one intelligent
-            workspace. It helps teams understand what matters, decide what comes next, and spend less time
-            coordinating work.
+            Jointick is a workspace for small teams. Projects, meetings, documents, and tasks stay together.
+            Claude reads that context and returns the summary, the tasks, the risk, and the next step.
           </p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <Button asChild size="lg" className="w-full sm:w-auto">
@@ -29,6 +28,7 @@ export function Hero() {
           </p>
         </div>
         <div className="mt-12 sm:mt-14">
+          <p className="mb-4 text-sm text-muted-foreground">One project open in the workspace.</p>
           <DashboardMock />
         </div>
       </div>
