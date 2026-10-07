@@ -26,6 +26,11 @@ export function Hero() {
             <span className="size-1.5 shrink-0 rounded-full bg-brand" aria-hidden="true" />
             Early access — currently in development
           </p>
+          <p className="mt-4 text-sm text-muted-foreground">
+            <a href="mailto:hello@jointick.co" className="font-medium text-ink underline underline-offset-4">
+              hello@jointick.co
+            </a>
+          </p>
         </div>
         <div className="mt-12 sm:mt-14">
           <p className="mb-4 text-sm text-muted-foreground">One project open in the workspace.</p>

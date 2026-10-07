@@ -5,23 +5,23 @@ import { AiWorkflow } from '@/components/product/AiWorkflow'
 
 const capabilities = [
   {
-    title: 'Smart Summaries',
-    body: 'Turn long meetings and documents into concise, useful context.',
+    title: 'Meeting and document analysis',
+    body: 'Claude reads meeting notes and project documents and turns them into a short, usable summary.',
     icon: FileText,
   },
   {
-    title: 'Action Extraction',
-    body: 'Automatically identify decisions, tasks, owners, and next steps.',
+    title: 'Action item extraction',
+    body: 'Claude pulls decisions, tasks, and next steps out of the discussion instead of leaving them in the notes.',
     icon: ListTodo,
   },
   {
     title: 'Knowledge Q&A',
-    body: 'Ask questions across project history, documents, and meeting context.',
+    body: 'Ask a question across the project history, the documents, and the meetings already in the workspace.',
     icon: Search,
   },
   {
-    title: 'Workflow Assistance',
-    body: 'Generate follow-ups, status updates, and structured actions from team activity.',
+    title: 'Risk and priority detection',
+    body: 'Claude surfaces blockers, risks, and what the team should handle next from the current project context.',
     icon: PenLine,
   },
 ]
@@ -29,7 +29,7 @@ const capabilities = [
 export function AiSection() {
   return (
     <Section id="ai" className="border-y border-line bg-band">
-      <SectionHeading eyebrow="AI built into the workflow" title="Intelligence that understands the context of your work.">
+      <SectionHeading eyebrow="Claude in the product" title="What Claude does inside the workspace.">
         Claude is built into the product. It reasons across the project, the meeting notes, the documents, and
         the tasks already in the workspace, then returns summaries, tasks, answers, risks, and next steps. It is
         not a separate chatbot.

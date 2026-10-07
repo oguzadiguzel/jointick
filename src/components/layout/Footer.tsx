@@ -7,6 +7,7 @@ const companyLinks = [
   { label: 'About', href: '/about' },
   { label: 'Contact', href: contactHref },
   { label: 'Privacy', href: '/privacy' },
+  { label: 'Terms', href: '/terms' },
 ]
 
 export function Footer() {

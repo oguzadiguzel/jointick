@@ -1,5 +1,5 @@
 import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
+import { createRoot, hydrateRoot } from 'react-dom/client'
 import { BrowserRouter } from 'react-router-dom'
 
 import '@fontsource-variable/instrument-sans'
@@ -22,10 +22,16 @@ enableAnalytics()
 const root = document.getElementById('root')
 if (!root) throw new Error('Root element missing')
 
-createRoot(root).render(
+const app = (
   <StrictMode>
     <BrowserRouter>
       <App />
     </BrowserRouter>
-  </StrictMode>,
+  </StrictMode>
 )
+
+if (root.childElementCount > 0) {
+  hydrateRoot(root, app)
+} else {
+  createRoot(root).render(app)
+}
