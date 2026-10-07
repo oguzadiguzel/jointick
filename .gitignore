@@ -1,0 +1,11 @@
+node_modules
+dist
+.DS_Store
+.env
+.env.*
+!.env.example
+*.local
+.vite
+
+# Local UI reference kits. Not used by the production build.
+kitler/

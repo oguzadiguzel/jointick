@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#f4f3ef"/>
+  <g transform="translate(80 78)">
+    <rect width="36" height="36" rx="9" fill="#1c1917"/>
+    <path d="M9.5 18.5 15.2 24.2 26.5 12" fill="none" stroke="#f4f3ef" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="132" y="104" fill="#1c1917" font-family="Helvetica, Arial, sans-serif" font-size="28" font-weight="600">Jointick</text>
+  <text x="80" y="290" fill="#1c1917" font-family="Helvetica, Arial, sans-serif" font-size="68" font-weight="600">Your team&#8217;s work,</text>
+  <text x="80" y="372" fill="#1c1917" font-family="Helvetica, Arial, sans-serif" font-size="68" font-weight="600">understood by AI.</text>
+  <text x="80" y="460" fill="#57534e" font-family="Helvetica, Arial, sans-serif" font-size="28">AI-native workspace for modern teams</text>
+  <text x="80" y="548" fill="#1f6b4a" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="600">jointick.co</text>
+</svg>
