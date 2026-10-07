@@ -22,16 +22,19 @@ npm run preview
 
 `npm run build` typechecks with `tsc` and writes the static site to `dist/`.
 
-## Cloudflare Pages
+## Cloudflare
 
-1. Create a Pages project from this repository.
-2. Set the root directory to the folder that contains this `package.json` (not `kitler/`).
-3. Build command: `npm run build`
-4. Build output directory: `dist`
-5. Set the environment variable `NODE_VERSION` to `20` or newer.
-6. Attach the custom domain `jointick.co`.
+Connect the GitHub repository in Workers & Pages. The Worker name must be `jointick`, matching `wrangler.jsonc`.
 
-Cloudflare serves the site over HTTPS, HTTP/2, and HTTP/3, and caches it at the edge. Hashed files in `/assets` are marked immutable in `public/_headers`. `public/_redirects` sends unknown paths to `index.html` so `/privacy` works as a client-side route.
+- Production branch: `main`
+- Root directory: leave empty
+- Build command: `npm run build`
+- Deploy command: `npx wrangler deploy`
+- Preview command: `npx wrangler preview`
+
+Node 22 is set in `.node-version`. After the first deploy, attach `jointick.co`.
+
+`/privacy` is a client-side route. Wrangler serves `index.html` for unknown paths. Hashed files in `/assets` are marked immutable in `public/_headers`.
 
 Do not enable Google Tag Manager. There is no container, and the extra script is unnecessary.
 

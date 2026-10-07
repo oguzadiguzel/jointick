@@ -9,3 +9,6 @@ dist
 
 # Local UI reference kits. Not used by the production build.
 kitler/
+
+.wrangler
+.dev.vars*
