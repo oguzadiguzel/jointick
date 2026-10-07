@@ -4,7 +4,7 @@ const steps = [
   {
     number: '01',
     title: 'Bring your work together',
-    body: 'Projects, meetings, documents, and tasks live in a connected workspace.',
+    body: 'The team adds meeting notes, documents, and tasks to the project. This site does not connect Slack, Zoom, a calendar, or a file drive.',
   },
   {
     number: '02',

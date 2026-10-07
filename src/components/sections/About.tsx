@@ -16,8 +16,9 @@ export function About() {
               projects, information, and team coordination.
             </p>
             <p>
-              Claude is part of the product. It reads the project, the meeting, and the documents already in the
-              workspace, then turns that context into summaries, tasks, risks, and next steps.
+              The product is being built so Claude can read the project, the meeting, and the documents in the
+              workspace, then turn that context into summaries, tasks, risks, and next steps. Jointick is not
+              affiliated with Anthropic. Claude is called through the Claude API.
             </p>
             <p>
               <a href="/about" className="font-medium text-ink underline underline-offset-4">

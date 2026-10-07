@@ -47,6 +47,11 @@ export function AiSection() {
           </li>
         ))}
       </ul>
+      <p className="mt-8 max-w-2xl text-sm leading-6 text-muted-foreground">
+        Claude can be wrong. Someone on the team should check a summary, a task, or a risk before treating it as
+        decided. Jointick is not affiliated with or endorsed by Anthropic. The product is being built to call
+        Claude through the Claude API. This site does not name a model version.
+      </p>
     </Section>
   )
 }

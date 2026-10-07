@@ -54,8 +54,10 @@ export function PrivacyPage() {
           available when you asked for that.
         </p>
         <p>
-          Those messages are not sold and are not used to build a public customer list. If you want a message
-          deleted, reply to the same thread or write again to {mail} and say so.
+          Those messages are not sold and are not used to build a public customer list. Jointick keeps an email
+          only as long as it is needed to reply and to handle a follow-up you asked for. If you want a message
+          deleted, reply to the same thread or write again to {mail} and say so. Jointick will answer that
+          request within 30 days.
         </p>
       </DocumentSection>
 
@@ -63,16 +65,28 @@ export function PrivacyPage() {
         <p>
           The site is hosted on Cloudflare. Delivering a page involves ordinary technical data such as the IP
           address, the browser, and the page requested. Cloudflare uses that data to serve, cache, and protect
-          the site. Jointick does not run a separate analytics product on this website, and it does not add a
-          tag manager.
+          the site. Cloudflare’s own description of that processing is in its{' '}
+          <a className="text-ink underline underline-offset-4" href="https://www.cloudflare.com/privacypolicy/">
+            privacy policy
+          </a>
+          . Jointick does not run a separate analytics product on this website, and it does not add a tag
+          manager.
         </p>
       </DocumentSection>
 
       <DocumentSection title="Cookies">
         <p>
-          The site itself does not set a marketing or analytics cookie. A strictly necessary cookie is not
-          required to read the pages. If a future version of the product adds accounts, this page will describe
-          what that version stores before it asks you for it.
+          Jointick does not set a marketing or analytics cookie from this website. Reading the pages does not
+          require an account cookie. Cloudflare may set a cookie used to secure or deliver the site, depending
+          on how the zone is configured, including bot protection. Cloudflare describes those cookies in its{' '}
+          <a
+            className="text-ink underline underline-offset-4"
+            href="https://developers.cloudflare.com/fundamentals/reference/policies-compliances/cloudflare-cookies/"
+          >
+            cookie documentation
+          </a>
+          . If a later version of the product adds accounts, this page will describe what that version stores
+          before it asks you for it.
         </p>
       </DocumentSection>
 
@@ -87,10 +101,31 @@ export function PrivacyPage() {
 
       <DocumentSection title="The product and this page">
         <p>
-          Jointick the product is in development. This privacy page covers the public website. When the product
-          stores project content, meeting notes, or documents for a team, that handling will be described to
-          the teams who use it. It is not described here as if that system were already open on this site.
+          The product is in development, and this website does not store a team’s projects, meeting notes, or
+          documents. The commitments below are the rules Jointick is building toward. They are not a description
+          of a system that is already open here, and there is no data-processing agreement published yet.
         </p>
+        <ul className="list-disc space-y-2 pl-5">
+          <li>
+            A Claude request will send the project context needed for that request to Anthropic through the
+            Claude API, so Claude can write the result.
+          </li>
+          <li>Jointick will not use that customer content to train its own model.</li>
+          <li>
+            Jointick does not control Anthropic’s systems. Anthropic’s handling of API data is described in
+            Anthropic’s own terms and privacy policy, not in a partnership with Jointick.
+          </li>
+          <li>
+            Before a team can store project content in the product, Jointick will publish where that content is
+            stored, how long it is kept, which subprocessors are used, and how a team can ask for access or
+            deletion.
+          </li>
+          <li>
+            Meeting notes and documents can include other people’s names and client details. The team that adds
+            that material will need its own notice and contract with those people. This website does not provide
+            that notice.
+          </li>
+        </ul>
         <p>
           The pages do not provide legal, medical, or financial advice. The examples on the site, including the
           Website Redesign project, are there to show the workspace. They are not a customer story.

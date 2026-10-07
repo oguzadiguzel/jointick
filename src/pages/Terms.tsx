@@ -48,6 +48,37 @@ export function TermsPage() {
         </p>
       </DocumentSection>
 
+      <DocumentSection title="The site is provided as it is">
+        <p>
+          The pages are provided as they are, without a warranty of accuracy, availability, or fitness for a
+          particular purpose. To the extent the law allows, Jointick is not liable for decisions you make from
+          the text on this website, including an example summary, task, or risk. Claude output on a future
+          product can be wrong and is not a substitute for a person’s judgment.
+        </p>
+      </DocumentSection>
+
+      <DocumentSection title="Intellectual property">
+        <p>
+          The text, layout, and Jointick name on this website belong to Jointick. You may link to the public
+          pages. You may not copy the site and present it as your product. Claude is a name used by Anthropic.
+          Jointick is not affiliated with, endorsed by, or a partner of Anthropic, and it does not own the Claude
+          name.
+        </p>
+      </DocumentSection>
+
+      <DocumentSection title="Who publishes these terms">
+        <p>
+          These terms are published by Jointick. The company has not published a registered legal name, a
+          registered office, or a chosen court on this website. That absence is stated on the About page. Until
+          a registered office is published, these terms do not name a country of law or a court. Questions and
+          disputes about the website can be sent to {mail}.
+        </p>
+        <p>
+          Using the site after a published change is not a signed contract. It means the published terms are the
+          terms Jointick offers for use of the website. A future product account would need its own agreement.
+        </p>
+      </DocumentSection>
+
       <DocumentSection title="No professional advice">
         <p>
           The website does not provide legal, medical, or financial advice. It is not directed at anyone under

@@ -42,15 +42,24 @@ export function AboutPage() {
           <li>Knowledge, so internal documents can be asked about in plain language.</li>
           <li>Tasks, so a decision or a meeting becomes a clear next step.</li>
         </ul>
-        <p>The current product is in development. Early access is how teams follow it and hear when they can use it.</p>
+        <p>
+          The product is in development. There is no published opening date, seat count, or price. Early access
+          is a request by email to {mail}. The panels on jointick.co are examples of the interface, not results
+          from a customer.
+        </p>
+        <p>
+          Work enters the project when the team adds it: meeting notes, documents, and tasks. This website does
+          not describe a connection to Slack, Zoom, a calendar, or a file drive.
+        </p>
       </DocumentSection>
 
       <DocumentSection title="How Claude is used">
         <p>
-          Claude is the intelligence inside the product. It is not a separate chatbot added on top of the
-          workspace. It reads the context the team has already created and returns something the team can use.
+          Claude is the model the product is being built around. It is not a separate chatbot next to the
+          workspace. Jointick is not affiliated with, endorsed by, or a partner of Anthropic. The product is
+          being built to call Claude through the Claude API. This site does not name a model version.
         </p>
-        <p>In the product, Claude is used to:</p>
+        <p>The product is being built so that Claude can:</p>
         <ul className="list-disc space-y-2 pl-5">
           <li>Read project documents and meeting notes.</li>
           <li>Write a short summary of what was decided.</li>
@@ -62,8 +71,10 @@ export function AboutPage() {
           <li>Turn a discussion into a structured task.</li>
         </ul>
         <p>
-          A question such as “What should we focus on before Friday?” is answered from the project, the meeting,
-          and the brief, and the answer names those sources. That is the product, not a general chat window.
+          A question such as “What should we focus on before Friday?” is meant to be answered from the project,
+          the meeting, and the brief, with those sources named. The version of that answer on the homepage is an
+          example. Claude can be wrong, so a person should confirm a summary, a task, or a risk before treating
+          it as decided.
         </p>
       </DocumentSection>
 
@@ -73,7 +84,10 @@ export function AboutPage() {
           <li>Startups keeping product discussions, decisions, meetings, and execution together.</li>
           <li>Agencies turning client meetings, feedback, and project context into tasks and follow-ups.</li>
           <li>Consulting teams organizing client knowledge, notes, recommendations, and deliverables.</li>
-          <li>Service businesses reducing repeated coordination so the team stays aligned.</li>
+          <li>
+            Service businesses keeping a job, the client notes, and the follow-up in one project instead of
+            rebuilding the status by hand.
+          </li>
         </ul>
       </DocumentSection>
 
@@ -108,6 +122,18 @@ export function AboutPage() {
             </dd>
           </div>
         </dl>
+      </DocumentSection>
+
+      <DocumentSection title="What this page does not list">
+        <p>
+          Jointick has not published a registered legal name, a registered office, a city, a founder name, or a
+          social media account on this website. Those details are absent because they are not stated here, not
+          because a reader should infer them. The public contact is the email address below.
+        </p>
+        <p>
+          There is no status page, support hours, or service-level agreement, because the product is not open as
+          a paid service.
+        </p>
       </DocumentSection>
 
       <DocumentSection title="Contact">

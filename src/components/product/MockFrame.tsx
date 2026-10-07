@@ -15,7 +15,7 @@ export function MockFrame({
     <div className={cn('overflow-hidden rounded-lg border border-line bg-surface', className)}>
       <div className="flex items-center justify-between gap-3 border-b border-line px-4 py-2.5">
         <p className="truncate text-xs font-medium text-ink">{title}</p>
-        <p className="shrink-0 text-xs text-muted-foreground">Jointick</p>
+        <p className="shrink-0 text-xs text-muted-foreground">Example</p>
       </div>
       <div className="p-4 sm:p-5">{children}</div>
     </div>

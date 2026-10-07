@@ -20,7 +20,7 @@ const cases = [
   },
   {
     title: 'Service Businesses',
-    body: 'Reduce repetitive administrative coordination and keep teams aligned.',
+    body: 'Keep a job, the notes from the client, and the follow-up in one project instead of rebuilding the status by hand.',
     icon: Store,
   },
 ]

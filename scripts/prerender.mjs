@@ -38,11 +38,21 @@ const pages = [
     description: 'Terms for using the Jointick website at jointick.co.',
     canonical: 'https://jointick.co/terms',
   },
+  {
+    path: '/404',
+    file: '404.html',
+    title: 'Page not found — Jointick',
+    description: 'This page is not on jointick.co.',
+    canonical: 'https://jointick.co/',
+  },
 ]
 
 for (const page of pages) {
   const body = render(page.path)
-  const html = inject(template, body, page)
+  let html = inject(template, body, page)
+  if (page.file === '404.html') {
+    html = html.replace('content="index, follow"', 'content="noindex"')
+  }
   const file = join(dist, page.file)
   mkdirSync(dirname(file), { recursive: true })
   writeFileSync(file, html)

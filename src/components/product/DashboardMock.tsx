@@ -11,10 +11,13 @@ export function DashboardMock() {
     <div
       className="rise rise-late overflow-hidden rounded-lg border border-line bg-surface shadow-mock"
       role="region"
-      aria-label="Website Redesign"
+      aria-label="Example interface for a project named Website Redesign"
     >
       <div className="flex items-center justify-between gap-3 border-b border-line px-4 py-3 sm:px-5">
-        <p className="truncate text-sm font-medium text-ink">Website Redesign</p>
+        <div className="min-w-0">
+          <p className="truncate text-sm font-medium text-ink">Website Redesign</p>
+          <p className="text-xs text-muted-foreground">Example interface, not a customer result</p>
+        </div>
         <StatusPill>On track</StatusPill>
       </div>
 

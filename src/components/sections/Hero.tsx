@@ -33,7 +33,9 @@ export function Hero() {
           </p>
         </div>
         <div className="mt-12 sm:mt-14">
-          <p className="mb-4 text-sm text-muted-foreground">One project open in the workspace.</p>
+          <p className="mb-4 text-sm text-muted-foreground">
+            Example: one project open in the workspace. Not a customer result.
+          </p>
           <DashboardMock />
         </div>
       </div>

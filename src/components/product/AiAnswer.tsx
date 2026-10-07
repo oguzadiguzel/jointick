@@ -1,6 +1,6 @@
 const focusItems = [
   'Finalize onboarding copy',
-  'Resolve the pending design approval',
+  'Resolve the pending onboarding approval',
   'Review mobile navigation',
   'Confirm analytics event tracking',
 ]
@@ -11,7 +11,7 @@ export function AiAnswer() {
   return (
     <div className="mt-12 overflow-hidden rounded-lg border border-line bg-surface lg:grid lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)]">
       <div className="border-b border-line bg-[#f7f6f2] p-6 sm:p-8 lg:border-b-0 lg:border-r">
-        <p className="text-xs font-medium text-muted-foreground">Ask Jointick</p>
+        <p className="text-xs font-medium text-muted-foreground">Example answer, not a customer result</p>
         <p className="mt-4 text-balance text-2xl font-medium tracking-tight text-ink sm:text-[1.75rem] sm:leading-snug">
           What should we focus on before Friday?
         </p>
@@ -26,7 +26,7 @@ export function AiAnswer() {
         </ol>
         <p className="mt-6 text-sm leading-6 text-ink">
           <span className="font-medium">Risk. </span>
-          The onboarding redesign may slip if approval is not received by Wednesday.
+          The onboarding redesign may slip if approval is not received by Friday, October 9.
         </p>
         <div className="mt-6 border-t border-line pt-4">
           <p className="text-xs font-medium text-muted-foreground">Sources</p>

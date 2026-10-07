@@ -1,0 +1,5 @@
+Contact: mailto:hello@jointick.co
+Expires: 2027-10-07T00:00:00.000Z
+Preferred-Languages: en
+Canonical: https://jointick.co/.well-known/security.txt
+Policy: https://jointick.co/privacy
