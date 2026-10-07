@@ -19,6 +19,11 @@ export function About() {
               Claude is part of the product. It reads the project, the meeting, and the documents already in the
               workspace, then turns that context into summaries, tasks, risks, and next steps.
             </p>
+            <p>
+              <a href="/about" className="font-medium text-ink underline underline-offset-4">
+                Read the full company page
+              </a>
+            </p>
           </div>
         </div>
         <dl className="h-fit border-t border-line pt-6 text-sm lg:border-l lg:border-t-0 lg:pl-10 lg:pt-1">

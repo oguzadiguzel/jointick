@@ -4,7 +4,7 @@ import { Wordmark } from '@/components/layout/Wordmark'
 import { contactHref, primaryNav, sectionHref } from '@/lib/nav'
 
 const companyLinks = [
-  { label: 'About', href: '/#about' },
+  { label: 'About', href: '/about' },
   { label: 'Contact', href: contactHref },
   { label: 'Privacy', href: '/privacy' },
 ]
@@ -55,7 +55,7 @@ export function Footer() {
             {companyLinks.map((item) => (
               <li key={item.href}>
                 <a
-                  href={item.href === '/privacy' ? item.href : sectionHref(item.href, pathname)}
+                  href={item.href.startsWith('/#') ? sectionHref(item.href, pathname) : item.href}
                   className="rounded-sm text-sm text-muted-foreground transition-colors hover:text-ink"
                 >
                   {item.label}

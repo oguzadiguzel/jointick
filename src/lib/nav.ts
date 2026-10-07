@@ -3,7 +3,7 @@ export const primaryNav = [
   { label: 'AI', href: '/#ai' },
   { label: 'Use Cases', href: '/#use-cases' },
   { label: 'How It Works', href: '/#how-it-works' },
-  { label: 'About', href: '/#about' },
+  { label: 'About', href: '/about' },
 ] as const
 
 export const contactHref = '/#early-access'
